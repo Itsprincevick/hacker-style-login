@@ -150,6 +150,7 @@ i {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .links a {
@@ -205,4 +206,27 @@ input[type="submit"]:active {
         .form-container {
             width: 20rem;
         }
+}
+
+
+/*
+===========================
+  sign up page styling
+===========================
+*/
+.terms {
+    display: flex;
+    gap: 0.325rem;
+    align-items: center;
+}
+p {
+    color: #fff;
+    font-size: 0.725em;
+    font-weight: 500;
+}
+
+.links .a {
+    color: #0f0;
+    font-weight: 600;
+    transition: filter 0.3s;
 }
