@@ -187,6 +187,10 @@ input[type="submit"]:active {
 ===========================
 */
 @media (max-width: 900px) {
+    body {
+        width: 100%;
+        padding: 1.25rem;
+    }
     section span {
         width: calc(10vw - 2px);
         height: calc(10vw - 2px);
