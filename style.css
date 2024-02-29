@@ -206,6 +206,13 @@ input[type="submit"]:active {
         .form-container {
             width: 20rem;
         }
+        .terms input[type="checkbox"] {
+            width: 0.625rem;
+            height: 0.625rem;
+        }
+        .terms p {
+            font-size: 0.62rem;
+        }
 }
 
 
